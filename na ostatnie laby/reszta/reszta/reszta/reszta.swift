@@ -1,9 +1,4 @@
-//
-//  animacja_lab4App.swift
-//  animacja_lab4
-//
-//  Created by apios on 14/12/2022.
-//
+
 
 import SwiftUI
 
