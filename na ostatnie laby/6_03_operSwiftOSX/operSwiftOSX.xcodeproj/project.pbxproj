@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2467E931FCE00C900831793 /* Robotnik.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2467E921FCE00C900831793 /* Robotnik.swift */; };
+		C2467E971FCE05C300831793 /* MyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2467E961FCE05C300831793 /* MyOperation.swift */; };
+		C298F7911FCDE789008D0156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C298F7901FCDE789008D0156 /* AppDelegate.swift */; };
+		C298F7931FCDE789008D0156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C298F7921FCDE789008D0156 /* ViewController.swift */; };
+		C298F7951FCDE789008D0156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C298F7941FCDE789008D0156 /* Assets.xcassets */; };
+		C298F7981FCDE789008D0156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C298F7961FCDE789008D0156 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C2467E921FCE00C900831793 /* Robotnik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robotnik.swift; sourceTree = "<group>"; };
+		C2467E961FCE05C300831793 /* MyOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOperation.swift; sourceTree = "<group>"; };
+		C298F78D1FCDE789008D0156 /* operSwiftOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = operSwiftOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C298F7901FCDE789008D0156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C298F7921FCDE789008D0156 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C298F7941FCDE789008D0156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C298F7971FCDE789008D0156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C298F7991FCDE789008D0156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C298F79A1FCDE789008D0156 /* operSwiftOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = operSwiftOSX.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C298F78A1FCDE789008D0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C298F7841FCDE789008D0156 = {
+			isa = PBXGroup;
+			children = (
+				C298F78F1FCDE789008D0156 /* operSwiftOSX */,
+				C298F78E1FCDE789008D0156 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C298F78E1FCDE789008D0156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C298F78D1FCDE789008D0156 /* operSwiftOSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C298F78F1FCDE789008D0156 /* operSwiftOSX */ = {
+			isa = PBXGroup;
+			children = (
+				C298F7901FCDE789008D0156 /* AppDelegate.swift */,
+				C298F7921FCDE789008D0156 /* ViewController.swift */,
+				C298F7941FCDE789008D0156 /* Assets.xcassets */,
+				C298F7961FCDE789008D0156 /* Main.storyboard */,
+				C298F7991FCDE789008D0156 /* Info.plist */,
+				C298F79A1FCDE789008D0156 /* operSwiftOSX.entitlements */,
+				C2467E921FCE00C900831793 /* Robotnik.swift */,
+				C2467E961FCE05C300831793 /* MyOperation.swift */,
+			);
+			path = operSwiftOSX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C298F78C1FCDE789008D0156 /* operSwiftOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C298F79D1FCDE789008D0156 /* Build configuration list for PBXNativeTarget "operSwiftOSX" */;
+			buildPhases = (
+				C298F7891FCDE789008D0156 /* Sources */,
+				C298F78A1FCDE789008D0156 /* Frameworks */,
+				C298F78B1FCDE789008D0156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = operSwiftOSX;
+			productName = operSwiftOSX;
+			productReference = C298F78D1FCDE789008D0156 /* operSwiftOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C298F7851FCDE789008D0156 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "Politechnika Warszawska";
+				TargetAttributes = {
+					C298F78C1FCDE789008D0156 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C298F7881FCDE789008D0156 /* Build configuration list for PBXProject "operSwiftOSX" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C298F7841FCDE789008D0156;
+			productRefGroup = C298F78E1FCDE789008D0156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C298F78C1FCDE789008D0156 /* operSwiftOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C298F78B1FCDE789008D0156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C298F7951FCDE789008D0156 /* Assets.xcassets in Resources */,
+				C298F7981FCDE789008D0156 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C298F7891FCDE789008D0156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C298F7931FCDE789008D0156 /* ViewController.swift in Sources */,
+				C2467E971FCE05C300831793 /* MyOperation.swift in Sources */,
+				C2467E931FCE00C900831793 /* Robotnik.swift in Sources */,
+				C298F7911FCDE789008D0156 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C298F7961FCDE789008D0156 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C298F7971FCDE789008D0156 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C298F79B1FCDE789008D0156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C298F79C1FCDE789008D0156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C298F79E1FCDE789008D0156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = operSwiftOSX/operSwiftOSX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = operSwiftOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imio.pw.operSwiftOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C298F79F1FCDE789008D0156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = operSwiftOSX/operSwiftOSX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = operSwiftOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imio.pw.operSwiftOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C298F7881FCDE789008D0156 /* Build configuration list for PBXProject "operSwiftOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C298F79B1FCDE789008D0156 /* Debug */,
+				C298F79C1FCDE789008D0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C298F79D1FCDE789008D0156 /* Build configuration list for PBXNativeTarget "operSwiftOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C298F79E1FCDE789008D0156 /* Debug */,
+				C298F79F1FCDE789008D0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C298F7851FCDE789008D0156 /* Project object */;
+}
